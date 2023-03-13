@@ -10,7 +10,7 @@ filter plugin file for update SAP software sownload centeri filename: update_fil
 # sys.path.append('/tmp/ansible_collection/ansible_collections/community/sap_launchpad/plugins')
 
 from ansible.errors import AnsibleFilterError
-from community.sap_launchpad.module_utils import *
+from ..module_utils.sap_launchpad_software_center_download_search_fuzzy import *
 
 DOCUMENTATION = """
   name: update_filename
